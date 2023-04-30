@@ -53,4 +53,4 @@ jobs:
           host: ${{ secrets.TENCENT_CLOUD_IP }}
           username: ${{ secrets.TENCENT_CLOUD_NAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: cd ~ && cd ../home/ubuntu && sh deploy.sh
+          script: cd ~ && cd ../usr/amabot && sh deploy.sh
